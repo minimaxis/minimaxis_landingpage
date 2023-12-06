@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerabout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.containeroptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    }
+}
+
+.cardoptions {
+    margin-top: 40px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    height: 500px;
+    border-radius: 32px;
+    background: var(--color-white-5, rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(0px);
+
+    @media (max-width: 1000px) {
+        height: 400px;
+        width: 80%;
+    }
+}
+
+.cardp {
+    color: var(--neutral-white, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cardptwo {
+    color: var(--neutral-white, black);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cardh2 {
+    color: #8859FE;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+
+    @media (max-width: 1000px) {
+        font-size: 20px;
+    }
+}
+
+.cardorganize {
+    padding: 20px;
+}
+
+.imgdocs {
+    width: 232px;
+    height: 232px;
+
+    @media (max-width: 1000px) {
+        height: 111px;
+        width: 111px;
+    }
+}
+
+.cardpp {
+    margin-top: 10px;
+    color: var(--neutral-white, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+
+    @media (max-width: 1000px) {
+        font-size: 12px;
+    }
+}
+
+.cardpptwo {
+    margin-top: 10px;
+    color: var(--neutral-white, black);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+
+    @media (max-width: 1000px) {
+        font-size: 12px;
+    }
+}
+
+.cardbutton {
+    margin-top: 20px;
+    width: 160px;
+    height: 43px;
+    align-items: center;
+    border-style: none;
+    border-radius: 28px;
+    background: #5865F2;
+
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    @media (max-width: 1000px) {
+        font-size: 12px;
+        width: 200px;
+    }
+}
+
+#mini-mockup {
+    width: 293.79px;
+    height: 276px;
+
+    @media (max-width: 1000px) {
+        width: 185.92px;
+        height: 121px;
+    }
+}
+
+#photowinners {
+    height: 236px;
+    width: 304.65px;
+
+    @media (max-width: 1000px) {
+        height: 100px;
+        width: 50%;
+    }
+}
+
+#photodevelopment {
+    height: 236px;
+    width: 244.65px;
+}
+
+/* Modal */
+
+.custom-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundo transparente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-modal-content {
+    border-radius: 16px;
+    height: 10%;
+    width: 60%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containersupermodal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.containermodal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.containerpersons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    }
+}
+
+.p-persons {
+    color: #5865F2;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 500;
+    @media (max-width: 1000px) {
+        font-size: 16px;
+    }
+}
+
+.pp-persons {
+    color: #23272A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+
+    @media (max-width: 1000px) {
+        font-size: 10px;
+    }
+}
+
+.imgmodal {
+    width: 426px;
+    height: 236px;
+
+    @media (max-width: 1000px) {
+        height: 0%;
+        width: 0%;
+    }
+}
+
+.imgperson {
+    width: 249.09px;
+    height: 150px;
+
+    @media (max-width: 1000px) {
+        height: 70.94px;
+        width: 150px;
+    }
+}
