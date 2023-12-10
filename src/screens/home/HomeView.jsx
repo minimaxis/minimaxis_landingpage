@@ -36,7 +36,7 @@ export default function HomeView() {
                     onClick={() => handleSelect('A')}
                     className={select === 'A' ? 'button-onselect' : 'button-noselect'}
                 >
-                    ABOUT US
+                    MINIMAXIS AND FLOWCHART
                 </button>
                 <button
                     onClick={() => handleSelect('B')}

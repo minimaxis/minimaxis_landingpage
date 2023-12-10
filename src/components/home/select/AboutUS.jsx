@@ -1,12 +1,16 @@
 import './Select.css'
 import "@fontsource/poppins";
-import React, { useState } from 'react';
-import photo from '../../../assets/photo-sats.png'
+import React  from 'react';
+import photo from '../../../assets/flow-sa1.png'
 import minibig from '../../../assets/minibig.png'
 
 
 
 export default function AboutUsComponent() {
+
+    const navigateFlowchart = () => {
+        window.location.replace("https://chat.minimaxis.com/")
+      }
 
     return (
         <div className='containerabout'>
@@ -22,10 +26,11 @@ export default function AboutUsComponent() {
 
                 <div className='cardoptions'>
                     <div className='cardorganize'>
-                        <p className='cardp'>SATSHACK</p>
-                        <h2 className='cardh2'>WINNERS</h2>
+                        <p className='cardp'>FLOWCHART</p>
+                        <h2 className='cardh2'>FOR MINISCRIPTS</h2>
                         <img src={photo} id='photowinners' />
-                        <p className='cardpp'>We won the Satshack hackathon at the biggest bitcoin <br></br>event in Brazil, SatsConf!</p>
+                        <p className='cardpp'>Convert MiniScript code into an intuitive flowchart so that you can <br></br>better understand MiniScript.</p>
+                        <button className='cardbutton' onClick={navigateFlowchart}>Try it now</button>
                     </div>
                 </div>
             </div>
